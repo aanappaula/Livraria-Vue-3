@@ -22,11 +22,23 @@
       </svg>
     </a>
     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-      <li><a class="dropdown-item" href="/">Página Principal</a></li>
-      <li><a class="dropdown-item" href="/editora">Editoras</a></li>
-      <li><a class="dropdown-item" href="/categoria">Categorias</a></li>
-      <li><a class="dropdown-item" href="/autores">Autores</a></li>
-      <li><a class="dropdown-item" href="/livros">Livros</a></li>
+      <li>
+        <router-link class="dropdown-item" to="/">Página Principal</router-link>
+      </li>
+      <li>
+        <router-link class="dropdown-item" to="/editora">Editoras</router-link>
+      </li>
+      <li>
+        <router-link class="dropdown-item" to="/categoria"
+          >Categorias</router-link
+        >
+      </li>
+      <li>
+        <router-link class="dropdown-item" to="/autores">Autores</router-link>
+      </li>
+      <li>
+        <router-link class="dropdown-item" to="/livros">Livros</router-link>
+      </li>
     </ul>
   </div>
 </template>
